@@ -61,15 +61,15 @@ if(Input::exists())
 				<form  method="post">
 					
 
-						<input class="input100" type="text" name="username" placeholder="Email or Username" id="username" value="<?php echo escape(Input::get('username')); ?>" autocomplete="off">
+						<input type="text" name="username" placeholder="Email or Username" value="<?php echo escape(Input::get('username')); ?>" autocomplete="off">
 						
-						<input class="input100" type="text" name="name" placeholder=" Full name" id="name" value="<?php echo escape(Input::get('name')); ?>" autocomplete="off">
+						<input type="text" name="name" placeholder=" Full name" value="<?php echo escape(Input::get('name')); ?>" autocomplete="off">
 						
-						<input class="input100" type="password" name="password" placeholder="Password">
+						<input type="password" name="password" placeholder="Password">
 					
-						<input class="input100" type="password" name="password_again" placeholder="Password Again" id="password_again">
+						<input type="password" name="password_again" placeholder="Password Again">
 					
-						<button class="login100-form-btn" name="submit">
+						<button name="submit">
 							Register
 						</button>
 					
